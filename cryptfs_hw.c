@@ -365,7 +365,6 @@ int is_ice_enabled(void)
 {
   char prop_storage[PATH_MAX];
   int storage_type = 0;
-  int fd;
 
   /*
    * Since HW FDE is a compile time flag (due to QSSI requirements),
